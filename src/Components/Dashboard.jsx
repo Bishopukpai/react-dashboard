@@ -5,9 +5,7 @@ import Login from './Login';
 const Dashboard = () => {
   const [token, setToken] = useState();
 
-  if (!token) {
-    return <Login setToken={setToken} />;
-  }
+ 
   return (
     <div className="dashboard-container">
       <header className="dashboard-header">
