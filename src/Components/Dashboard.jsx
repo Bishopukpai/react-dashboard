@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
-import Login from './Login';
 
 const Dashboard = () => {
-  const [token, setToken] = useState();
-
  
   return (
     <div className="dashboard-container">
